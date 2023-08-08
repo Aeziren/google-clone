@@ -1,0 +1,99 @@
+body
+{
+    background-color: rgb(32, 32, 32);
+}
+#navbar
+{
+    text-align: right;
+
+}
+#navbar>a
+{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font: 16px arial;
+}
+#search
+{
+    margin-top: 350px;
+    text-align: center;
+}
+input[name="q"]
+{
+    width: 450px;
+    padding: 14px;
+    background-color: transparent;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 40px;
+    color: white;
+}
+input[name="q"]:hover,
+input[name="q"]:focus
+{
+    background-color: rgb(50, 50, 50);
+    outline: none;
+}
+#container_buttons
+{
+    margin-top: 35px;
+}
+#container_buttons>input
+{
+    background-color: rgb(50, 50, 50);
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 7px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+}
+#container_buttons>input:hover
+{
+    border: 1px solid rgb(200, 200, 200);
+}
+#adv_search
+{
+    width: 700px;
+}
+.adv_input
+{
+    margin-bottom: 18px;
+    font: 14px Arial;
+    color: rgb(192, 192, 192);
+}
+.adv_input>input
+{
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 3px;
+    padding: 2px;
+    color: rgb(192, 192, 192);
+    float: right;
+}
+.adv_input>input:hover,
+.adv_input>input:focus
+{
+    background-color: rgb(50, 50, 50);
+    outline: none;
+}
+#adv_submit
+{
+    color: rgb(32, 32, 32) ;
+    font-weight: bold;
+    padding: 8px;
+    background-color: rgb(95, 160, 255);
+    border: transparent;
+    border-radius: 4px;
+    float: right;
+}
+#adv_submit:hover,
+#adv_submit:focus
+{
+    background-color: rgb(125, 190, 255);
+}
+
+
+
+

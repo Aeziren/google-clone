@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Search</title>
-</head>
-<body>
-    <a href="index.html">Google Search</a>
-    <div>
-        <form action="https://www.google.com/search">
-            <div>
-                <p>All these words:</p>
-                <input type="text" name="as_q">
-            </div>
-            <div>
-                <p>This exact word or phrase:</p>
-                <input type="text" name="as_epq">
-            </div>
-            <div>
-                <p>Any of these words:</p>
-                <input type="text" name="as_oq">
-            </div>
-            <div>
-                <p>None of these words:</p>
-                <input type="text" name="as_eq">
-            </div>
-            <input type="submit" value="Advanced Search">
-        </form>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/75bc2abf7c.js" crossorigin="anonymous"></script>
+        <title>Advanced Search</title>
+    </head>
+
+    <body>
+        <div id="navbar">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div id="adv_search">
+            <form action="https://www.google.com/search">
+                <div class="adv_input">
+                    <label for="as_q">All these words:</label>
+                    <input type="text" name="as_q">
+                </div>
+                <div class="adv_input">
+                    <label for="as_epq">This exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                </div>
+                <div class="adv_input">
+                    <label for="as_oq">Any of these words:</label>
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="adv_input">
+                    <label for="as_eq">None of these words:</label>
+                    <input type="text" name="as_eq">
+                </div>
+                <input id= "adv_submit" type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </body>
 </html>
